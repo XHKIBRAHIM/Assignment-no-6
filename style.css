@@ -63,59 +63,265 @@ box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 3
 
 
 
+.bgp{
+width: 100%;
+height: 400px;
+background: #FEFAF1;
 
+}
 
+.head2{
+    font-size:43px;
+    font-weight:700;
+    color: #212121;
+}
+.btnn{
+    border: 0px 0px 0px 0px;
+    outline: 0px;
+}
+.but{
+    background: #FEFAF1 !important;
+    border: none !important;
+    box-shadow: none;
+    color:orange;
+}
+.na{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 85%;
+}
+.na li{
+    display: inline-block;
+    
+}
+/* <!-- ....................section 10........................... --> */
+.bd{
+    background-image: url(./img/Image\ \(18\).png);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.fl{
+    background-image: url(./img/Image\ \(19\).png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+/* ...................................................................... */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.headerset{
+    position: absolute;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 97.5%;
+text-align: center;
+color: #FFF;
+justify-content: center;
+align-items: center;
+padding-top:120px ;
+padding-left: 400px;
+}
+.tab{
+    background: linear-gradient(93.41deg, #F17228 -5.63%, #F15E28 100.8%);
+    /* Button shadow ! */
+    
+    box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.tab1{
+    padding-top: 210px;
+    justify-content: center;
+}
+.fi{
+    background-image: url(./img/photo-1603366615917-1fa6dad5c4fa.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head3{
+    font-style: normal;
+font-weight: 700;
+font-size: 22px;
+color: #FFFFFF;
+}
+.he{
+    list-style: none;
+}
+.he li{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+}
+.hr{
+    /* order: 1; */
+    border: 2px solid #fff;
+    outline: #fff;
+}
+.foot{
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 700;
+}
+.last{
+    width: 50px;
+    height: 50px;
+}
 
 
 
 @media(min-width:992px){
+    .body{
+        background-image: url(./img/Group\ 1\ 1.png);
+        width: 100%;
+        height: 450px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+}
 
 }
 @media(min-width:768) and (max-width:991px){
-
+    .body{
+        background-image: url(./img/Group\ 1\ 1.png);
+        width: 100%;
+        height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+}
+.bg{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    width: 100%;
+    height: 900px;
+}     
 }
 @media(min-width:575px) and (max-width:767px){
-
+    .body{
+        background-image: url(./img/Group\ 1\ 1.png);
+        width: 100%;
+        height: 760px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+}
+.bg{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    width: 100%;
+    height: 900px;
+}   
+.imgb img{
+    height: 400px;
+    padding-top: 100px;
+    margin-top: 500px;
+}  
 }
 @media(min-width:460px) and (max-width:574px){
-    
+.body{
+        background-image: url(./img/Group\ 1\ 1.png);
+        width: 100%;
+        height: 750px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+}
+.bg{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    width: 100%;
+    height: 900px;
+}     
+.imgb img{
+    height: 400px;
+    padding-top: 100px;
+    margin-top: 2350px;
+}
+.headerset{
+    position: absolute;
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 97.5%;
+text-align: center;
+color: #FFF;
+justify-content: center;
+align-items: center;
+padding-top:120px ;
+padding-left: 400px;
+}
 }
 @media(max-width: 479px){
-
+.body{
+    background-image: url(./img/Group\ 1\ 1.png);
+    width: 100%;
+    height: 725px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}  
+.bg{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    width: 100%;
+    height: 900px;
+}
+.imgb img{
+    height: 400px;
+    padding-top: 100px;
+    margin-top: 1750px;
+}
+.headerset{
+    position: absolute;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 97.5%;
+text-align: center;
+color: #FFF;
+justify-content: center;
+align-items: center;
+padding-top:120px ;
+padding-left: 400px;
 }
 
-
+}
+.fi{
+    background-image: url(./img/photo-1603366615917-1fa6dad5c4fa.jpg);
+    width: 100%;
+    height: 2320px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head3{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+width: 50%;
+padding: 100px 200px;
+color: #FFFFFF;
+}
+.he{
+    list-style: none;
+}
+.he li{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    justify-content:left;
+    align-items: flex-start;
+}
